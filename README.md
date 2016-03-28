@@ -79,6 +79,7 @@ Conveniently, `kylemanna/openvpn` comes with a script called `ovpn_getclient`,
 which dumps an inline OpenVPN client configuration file.  This single file can
 then be given to a client for access to the VPN.
 
+To enable Two Factor Authentication for clients (a.k.a. OTP) see [this document](/docs/otp.md).
 
 ## OpenVPN Details
 
@@ -171,3 +172,8 @@ of a guarantee in the future.
      * OpenVPN core 3.0 android armv7a thumb2 32-bit
   * OS X Mavericks with Tunnelblick 3.4beta26 (build 3828) using openvpn-2.3.4
   * ArchLinux OpenVPN pkg 2.3.4-1
+  * 
+
+## Having permissions issues with Selinux enabled?
+
+See [this](docs/selinux.md)
